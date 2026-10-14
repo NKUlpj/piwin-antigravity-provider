@@ -1,0 +1,18 @@
+{
+  "name": "piwin-antigravity",
+  "version": "0.10.0-piwin.1",
+  "description": "Antigravity (Google Cloud Code Assist) provider adapted for piwin Host OAuth and model management",
+  "type": "module",
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./index.ts",
+      "./google-search.ts",
+      "./generate-image.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
